@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78B8D980-6A45-4A99-9EB1-6E57B3569B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemoncode.Books.Domain", "src\Lemoncode.Books.Domain\Lemoncode.Books.Domain.csproj", "{96AFC6C0-78A4-4C12-9283-9A73EFC57BF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemoncode.Books.Application", "src\Lemoncode.Books.Application\Lemoncode.Books.Application.csproj", "{FCAE5B98-1D20-41F8-B892-308A159678D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemoncode.Books.WebApi", "src\Lemoncode.Books.WebApi\Lemoncode.Books.WebApi.csproj", "{52F0839E-AA46-444E-9DC2-784099AA2087}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A668598A-B57A-49B7-90D0-974E69D970B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lemoncode.Books.FunctionalTests", "test\Lemoncode.Books.FunctionalTests\Lemoncode.Books.FunctionalTests.csproj", "{4553FC84-4C34-4EE7-8754-BB704B7BC33F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96AFC6C0-78A4-4C12-9283-9A73EFC57BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AFC6C0-78A4-4C12-9283-9A73EFC57BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AFC6C0-78A4-4C12-9283-9A73EFC57BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AFC6C0-78A4-4C12-9283-9A73EFC57BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCAE5B98-1D20-41F8-B892-308A159678D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAE5B98-1D20-41F8-B892-308A159678D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAE5B98-1D20-41F8-B892-308A159678D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAE5B98-1D20-41F8-B892-308A159678D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F0839E-AA46-444E-9DC2-784099AA2087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F0839E-AA46-444E-9DC2-784099AA2087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F0839E-AA46-444E-9DC2-784099AA2087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F0839E-AA46-444E-9DC2-784099AA2087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4553FC84-4C34-4EE7-8754-BB704B7BC33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4553FC84-4C34-4EE7-8754-BB704B7BC33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4553FC84-4C34-4EE7-8754-BB704B7BC33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4553FC84-4C34-4EE7-8754-BB704B7BC33F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96AFC6C0-78A4-4C12-9283-9A73EFC57BF7} = {78B8D980-6A45-4A99-9EB1-6E57B3569B5B}
+		{FCAE5B98-1D20-41F8-B892-308A159678D6} = {78B8D980-6A45-4A99-9EB1-6E57B3569B5B}
+		{52F0839E-AA46-444E-9DC2-784099AA2087} = {78B8D980-6A45-4A99-9EB1-6E57B3569B5B}
+		{4553FC84-4C34-4EE7-8754-BB704B7BC33F} = {A668598A-B57A-49B7-90D0-974E69D970B0}
+	EndGlobalSection
+EndGlobal
